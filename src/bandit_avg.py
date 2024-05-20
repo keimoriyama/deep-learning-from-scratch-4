@@ -8,7 +8,7 @@ epsilon = 0.1
 all_rates = np.zeros((runs, steps))
 
 for run in range(runs):
-    bandit = Bandit()
+   bandit = Bandit()
     agent = Agent(epsilon)
     total_reward = 0
     rates = []
