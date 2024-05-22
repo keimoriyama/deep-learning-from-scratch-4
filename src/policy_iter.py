@@ -49,4 +49,4 @@ def policy_iter(env, gamma, threshold=0.001, is_render=False):
 
 env = GridWorld()
 gamma = 0.9
-pi = policy_iter(env, gamma)
+pi = policy_iter(env, gamma, is_render=True)
